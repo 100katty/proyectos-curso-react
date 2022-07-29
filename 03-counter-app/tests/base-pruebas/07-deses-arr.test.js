@@ -10,7 +10,9 @@ describe('Prueba en 07-deses', () => {
         expect(number).toBe(123);
 
         expect(typeof letter).toBe('string')
-        expect(typeof number ).toBe('number')
+        expect(typeof number).toBe('number')
+        
+        expect(letter).toEqual(expect.any(String));
     });
     
 });
