@@ -11,13 +11,14 @@ export const FirsApp = ({
         <>
             <h1>{title} </h1>
             <p>{subtitle} </p>
+            <p>{subtitle} </p>
         </>
       
   )
 }
 FirsApp.propTypes = {
     title: PropTypes.string.isRequired,
-    subtitle:  PropTypes.number.isRequired
+    subtitle:  PropTypes.string.isRequired
 }
 FirsApp.defaultProps = {
     title: 'No hay titulo',
